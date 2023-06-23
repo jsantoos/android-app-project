@@ -22,5 +22,10 @@
         android:name="com.example.carrent.ui.sobre.SobreFragment"
         android:label="Sobre"
         tools:layout="@layout/fragment_sobre" />
+    <fragment
+        android:id="@+id/nav_cadastro"
+        android:name="com.example.carrent.ui.cadastrar.CadastroFragment"
+        android:label="Cadastro"
+        tools:layout="@layout/fragment_cadastro" />
 
 </navigation>
