@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewFacebookLogo"
+            android:layout_width="243dp"
+            android:layout_height="132dp"
+            android:layout_marginTop="52dp"
+            android:src="@mipmap/ic_banner_foreground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="362dp"
+            android:layout_height="774dp"
+            android:layout_marginTop="70dp"
+            android:text="Na StarCar, nossa missão é proporcionar uma experiência excepcional de aluguel de carros, com foco na satisfação e nas necessidades dos nossos clientes. \nNosso objetivo é oferecer soluções de mobilidade confiáveis, acessíveis e convenientes, tornando cada viagem uma experiência memorável.
+
+\nEntendemos que a mobilidade é essencial nos dias de hoje. \nSeja para viagens de negócios, lazer ou qualquer outra ocasião, sabemos que nossos clientes precisam de um serviço de aluguel de carros que seja flexível, eficiente e que atenda às suas necessidades individuais. Por isso, nos esforçamos para ser a escolha número um quando se trata de aluguel de veículos.
+
+\nNosso compromisso com a excelência se reflete em cada aspecto do nosso negócio."
+            android:textAlignment="center"
+            android:textColor="#040404"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewFacebookLogo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

@@ -28,4 +28,10 @@
         android:label="Cadastro"
         tools:layout="@layout/fragment_cadastro" />
 
+    <fragment
+        android:id="@+id/nav_missao"
+        android:name="com.example.carrent.ui.missao.MissaoFragment"
+        android:label="Missao"
+        tools:layout="@layout/fragment_missao" />
+
 </navigation>

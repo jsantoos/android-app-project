@@ -14,10 +14,10 @@
             android:id="@+id/nav_alugar"
             android:icon="@drawable/ic_alugar"
             android:title="Alugar" />
-        <item
+        <!-- <item
             android:id="@+id/nav_historico"
             android:icon="@drawable/ic_historico"
-            android:title="Historico" />
+            android:title="Historico" /> -->
         <item
             android:id="@+id/nav_cadastro"
             android:icon="@drawable/ic_cadastro"
